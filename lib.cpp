@@ -1,4 +1,3 @@
-
 #Includi "lib.h"
 float massimo(float array[],int n){
 float max = 0;
