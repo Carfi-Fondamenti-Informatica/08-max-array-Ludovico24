@@ -1,5 +1,13 @@
 #include <iostream>
-
+#include "lib.h"
+using namespace std;
 int main(){
-  return 0;
+    int d, i = 0;
+    cin >> d;
+    float array[d];
+    for(; i < d; i++){
+        cin >> array[i];
+    }
+    cout << maxArray(array, d);
+    return 0;
 }
