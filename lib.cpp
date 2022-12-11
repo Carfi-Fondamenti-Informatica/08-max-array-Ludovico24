@@ -1,12 +1,12 @@
 #Includi "lib.h"
-float maxArray(float array[], int d){
-    for(int i = 0; i < d; ++i){
-        if(array[0] > array[i]){
 
-        }
-        altro{
-            array[0] = array[i];
+float array(float a[], int dim){
+    for(int i=0; i<dim; i++){
+        if(a[0]<=a[i]){
+            a[0]=a[i];
+        }altro{
+            a[i]=a[0];
         }
     }
-    matrice restituita[0];
+    return a[0];
 }
