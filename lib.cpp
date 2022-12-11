@@ -1,12 +1,15 @@
-#Includi "lib.h"
 
-float array(float a[], int dim){
-    for(int i=0; i<dim; i++){
-        if(a[0]<=a[i]){
-            a[0]=a[i];
-        }altro{
-            a[i]=a[0];
-        }
+#Includi "lib.h"
+float massimo(float array[],int n){
+float max = 0;
+  
+  for(int i=0;i<n;i++){
+  se(i == 0){
+  max = array[i];
     }
-    return a[0];
+    if(array[i] > max){
+    max = array[i];
+    }
+  }
+  ritorno max;
 }
