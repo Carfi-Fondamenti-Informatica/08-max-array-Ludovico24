@@ -3,18 +3,12 @@
 using namespace std;
 
 int main(){
-  
-  int n = 0;
-  cin >> n;
-  
-  
- float array[n];
- 
- for(int i=0;i<n;i++){
- cin >> array[i];
- }
-  
-  cout << massimo(array,n) << endl;
-  
-  return 0;
+    int dim=0;
+    cin>>dim;
+    float a[dim];
+    for(int i=0; i<dim; i++){
+        cin>>a[i];
+    }
+    cout<<array(a,dim)<<endl;
+    return 0;
 }
